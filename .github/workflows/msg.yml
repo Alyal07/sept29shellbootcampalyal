@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo "Welcome to Shell IDA"
+      - run: echo "Welcome to Shell IDA Alyal"
       - run: echo "Current OS is ${{runner.os}} "
       - run: echo "Github Event Name is ${{github.event_name}} "
       - run: pwd
